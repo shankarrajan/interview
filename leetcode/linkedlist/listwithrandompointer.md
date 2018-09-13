@@ -1,4 +1,5 @@
 ## Link
+
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 ## Input
 A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
@@ -18,7 +19,6 @@ https://github.com/shankarrajan/interview/blob/master/leetcode/resources/listwit
 - create a copy of each node and set it as next value for the nodes
 - Set each node next random value as nodes random next value (initializes random value for each duplicate node)
 - Split each node to separate list.
-
 
 set current = head;
 
@@ -49,8 +49,6 @@ till current not null
 
 till current not null 
     split the value of duplicate and current value. 
-
-    
 
 
 

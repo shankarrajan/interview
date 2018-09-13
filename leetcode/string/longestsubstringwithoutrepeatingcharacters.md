@@ -1,4 +1,5 @@
 ## Link
+
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 ## Input
 Given a string, find the length of the longest substring without repeating characters.
@@ -24,6 +25,7 @@ Given a string, find the length of the longest substring without repeating chara
 		Set endPosition value as startPosition+1
 - update hashmap of character and value as startPosition
 - update max as max of j-i+1, max
+
 ## Pseudo code
 Map characterWithIndex
 startPosition = 0
