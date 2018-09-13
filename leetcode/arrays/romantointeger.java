@@ -52,7 +52,7 @@ For input.range(1-> length)
 If previous !=0
     sum+ = romanMap[prev]
 
-Sample Input (To be ignored)
+Test Input (To be ignored)
 1) Input: IV
 Sum = 0
 Prev = I
