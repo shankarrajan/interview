@@ -2,6 +2,7 @@
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 ## Input
+```
 Say you have an array for which the ith element is the price of a given stock on day i.
 
 If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
@@ -19,7 +20,7 @@ Example 2:
 Input: [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
-
+```
 
 ## Edge Cases
 Empty stock range
@@ -29,11 +30,12 @@ Empty stock range
 ## Code flow
 ### Logic
 - for each element two things are to be identified. 
-    is it the minimum element?
-    is it the maximum element -> maxProfit is high
+    - is it the minimum element?
+    - is it the maximum element -> maxProfit is high
 
 
 ## Pseudo code
+```
 set minSoFar = element[0]
 for i=1 to element.length
     if element[i]> minSoFar 
@@ -41,7 +43,7 @@ for i=1 to element.length
     else
         minSoFar = element[i]
 return max
-
+```
 
 
 ## Test Input (To be ignored)
