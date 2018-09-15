@@ -66,8 +66,8 @@ till current not null
      RandomListNode(int x) { this.label = x; }
  };
  
-
-public RandomListNode copyRandomList(RandomListNode head) {
+class Solution{
+    public RandomListNode copyRandomList(RandomListNode head) {
         RandomListNode current = head;
 
         while (current !=  null){
@@ -103,5 +103,5 @@ public RandomListNode copyRandomList(RandomListNode head) {
         }
         return pseudoHead.next;
     }
-
+}
 ```
