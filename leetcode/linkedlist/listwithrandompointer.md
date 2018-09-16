@@ -6,7 +6,7 @@ A linked list is given such that each node contains an additional random pointer
 
 Return a deep copy of the list.
 
-https://github.com/shankarrajan/interview/blob/master/leetcode/resources/listwithrandompointer.gif
+https://github.com/shankarrajan/interview/blob/master/leetcode/resources/linkedlist_listwithrandompointer.gif
 
 ## Edge Cases
 - Linked list pointing to itself. 
